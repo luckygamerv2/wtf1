@@ -1,7 +1,7 @@
 const Discord = require('discord.js');  
 const client = new Discord.Client();  
 const aprefix ="!";
-const dev = ["538026481054515210"];
+const dev = ["444559925427961875"];
 client.on('message', message => {
     var arg = message.content.split(` `).slice(1).join(' ');
       if (!dev.includes(message.author.id)) return;
